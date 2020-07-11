@@ -1,7 +1,7 @@
-console.log('notes.js')
+//console.log('notes.js')
 
 const getNotes = function () {
-    return 'Your notes ......'
+    return 'Your notes......'
 }
 
 module.exports = getNotes
