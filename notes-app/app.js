@@ -1,9 +1,9 @@
 // const add = require('./utils.js')
 // const fs = require('fs')
 // const validator = require('validator')
- const notes =  require('./notes.js')
- const yargs = require('yargs')
- const chalk = require('chalk')
+const notes =  require('./notes.js')
+const yargs = require('yargs')
+const chalk = require('chalk')
 
 //const msg=getNotes()
 //console.log(msg)
