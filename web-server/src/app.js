@@ -3,7 +3,8 @@ const express = require('express')
 const app = express()
 
 app.get('',(req, res)=>{
-    res.send('Hello Express!')
+    res.send('<h1>Hello Express!</h1>')
+    
 })
 
 app.get('/help',(req, res)=>{
@@ -11,11 +12,16 @@ app.get('/help',(req, res)=>{
 })
 
 app.get('/about',(req, res)=>{
-    res.send('Welcome to Weatherly')
+    //res.send('Welcome to Weatherly')
+    res.send('<h1>About</h>')
 })
 
 app.get('/weather',(req, res)=>{
-    res.send('Show weather')
+    //res.send('Show weather')
+    res.send({
+        forecast : 'It is snowing',
+        location : 'Philadelphia'
+    })
 })
 
 app.listen(3000,()=>{
