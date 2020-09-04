@@ -34,8 +34,7 @@ if(!searchAddress){
             }
             console.log(location)
             console.log(forecastData)
-        })
-        
+        })        
     })
 }
 
